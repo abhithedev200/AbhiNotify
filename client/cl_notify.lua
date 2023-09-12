@@ -55,5 +55,6 @@ Citizen.CreateThread(function()
             local zoneTexture = getZoneData(zone)
             TriggerEvent('rNotify:NotifyTop', Config.NotifyText, zoneTexture, 4000)
         end
+		
     end
 end)

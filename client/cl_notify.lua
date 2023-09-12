@@ -1,5 +1,5 @@
 -- Current city
-local currentZone = ""
+local currentZone = false
 
 function getZoneData(hash)
 	if hash ~= false then

@@ -54,7 +54,8 @@ Citizen.CreateThread(function()
             -- get current zone for texture
             local zoneTexture = getZoneData(zone)
             TriggerEvent('rNotify:NotifyTop', Config.NotifyText, zoneTexture, 4000)
+			currentZone = zone
         end
-		
+
     end
 end)
